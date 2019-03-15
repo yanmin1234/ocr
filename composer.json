@@ -1,0 +1,19 @@
+{
+  "name": "yanmin/ocr",
+  "description": "echo hello",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yanmin",
+      "email": "XXXX3@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ocr\\": "src/"
+    }
+  }
+}
