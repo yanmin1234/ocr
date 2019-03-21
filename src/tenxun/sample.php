@@ -3,9 +3,9 @@
 require_once __DIR__ . '/index.php';
 use QcloudImage\CIClient;
 
-$appid = '1252808264';
-$secretId = 'AKIDZHxRrEPSXP3LVaSAMHxWBznkaFpVraM0';
-$secretKey = 'ZsMeifMpFQQYIn5UfdBbxW1CKDdwQUT4';
+$appid = '';
+$secretId = '';
+$secretKey = '';
 $bucket = 'YOUR_BUCKET';
 
 $client = new CIClient($appid, $secretId, $secretKey, $bucket);
